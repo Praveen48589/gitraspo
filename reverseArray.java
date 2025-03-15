@@ -14,7 +14,6 @@ public class reverseArray {
         System.out.print("your array is reverse : ");
         displayArray(myArr);
     }
-    
     public static void reverse(int[] num){
         int i = 0;
         while (i<num.length/2) {
