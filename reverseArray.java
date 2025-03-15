@@ -21,16 +21,9 @@ public class reverseArray {
             int swap = num[i];
             num[i] = num[(num.length-1)-i];
             num[(num.length-1)-i] = swap;
-            i++;
-
-
-            
+            i++; 
         }
     }
-
-    
-
-
     public static int displayArray(int[] num){
         int i = 0;
         while (i<num.length) {
