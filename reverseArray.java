@@ -10,6 +10,7 @@ public class reverseArray {
             myArr[i] = sc.nextInt();
             
         }
+        sc.close(); // hello world
         reverse(myArr);
         System.out.print("your array is reverse : ");
         displayArray(myArr);
