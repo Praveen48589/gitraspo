@@ -4,6 +4,7 @@ public class palindromeArray {
         Scanner sc = new Scanner(System.in);
         System.out.print("enter the total values : ");
         int totalValues = sc.nextInt();
+        sc.close();
         int[] myArr = new int[totalValues];
         for(int i = 0;i<totalValues;i++){
             System.out.print("enter the values"+(i+1)+": ");
